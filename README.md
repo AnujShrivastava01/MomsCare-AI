@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🍼 MomsCare AI — The Ultimate Mother & Baby Support Suite
 
-## Getting Started
+MomsCare AI is a comprehensive, multi-lingual (EN/AR) AI ecosystem designed to revolutionize the mother and baby e-commerce experience. From pediatric symptom triage to intelligent gift finding and operational anomaly detection, MomsCare AI brings empathy-driven intelligence to every touchpoint.
 
-First, run the development server:
+![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Key AI Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 🤱 For Mothers
+- **Voice-to-List**: Convert a quick voice memo into a structured shopping list and calendar items. (EN/AR)
+- **Pregnancy Timeline**: A personalized week-by-week content and product recommendation engine based on due dates.
+- **Pediatric Symptom Triage**: An intelligent health assistant that helps moms evaluate symptoms and knows exactly when to defer to a doctor.
+- **Natural Language Gift Finder**: "A thoughtful gift for a 6-month-old under 200 AED" returns a curated shortlist with reasoning. (EN/AR)
+- **Moms Verdict**: Synthesizes 200+ product reviews into a structured, easy-to-read "Verdict" summary. (EN/AR)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🛒 For E-commerce Operations
+- **Smart Support Triage**: Automatically analyzes customer emails for **Intent**, **Urgency**, and generates a suggested **Natural Reply**. (EN/AR)
+- **Visual PDP Generator**: Turn a product image into launch-ready Product Detail Page (PDP) content instantly. (EN/AR)
+- **Return Classification**: Classifies free-text return reasons (Refund, Exchange, Store-credit, or Escalate) with reasoning and confidence scores.
+- **Product Comparison Engine**: Generate publish-ready blog posts comparing 2 to 5 products, including comparison tables and pros/cons. (EN/AR)
+- **Catalog Duplicate Detection**: Uses vector embeddings to detect duplicate or near-duplicate products with a reviewable diff.
+- **Operations Dashboard**: Real-time order data analysis with anomaly detection and an AI-written weekly summary.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Framework**: [Next.js 15](https://nextjs.org/) (App Router)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: Premium Vanilla CSS (Inter & Outfit Fonts)
+- **AI Engine**: Advanced LLM integration with bi-lingual (English & Arabic) optimization.
+- **Deployment**: [Vercel](https://vercel.com/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🏗️ Getting Started
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Prerequisites
+- Node.js 18+ 
+- npm / yarn / pnpm
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/AnujShrivastava01/MomsCare-AI.git
+   cd MomsCare-AI
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open the application**
+   Navigate to [http://localhost:3000](http://localhost:3000) to see the Smart Support Triage in action.
+
+---
+
+## 🌍 Multi-lingual Intelligence
+MomsCare AI is built with a "Global First" mindset. Every AI-generated output (Replies, Blog Posts, PDPs, Gift Shortlists) is optimized for natural, fluent Arabic—avoiding the robotic tone of literal translations to better resonate with users in the MENA region.
+
+## 📈 Roadmap
+- [x] Customer Support Triage Dashboard
+- [ ] Voice Memo Processing Integration
+- [ ] Pediatric Symptom Engine Alpha
+- [ ] Catalog Embedding Analysis Tool
+
+---
+
+## 📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Developed with ❤️ by **Anuj Shrivastava**

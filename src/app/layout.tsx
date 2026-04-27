@@ -6,8 +6,8 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const outfit = Outfit({ subsets: ["latin"], variable: "--font-outfit" });
 
 export const metadata: Metadata = {
-  title: "NurtureFlow AI | Smart Support Triage",
-  description: "Advanced AI-powered support triage for mother & baby e-commerce platforms.",
+  title: "MomsCare AI | Smart Support Triage",
+  description: "Advanced AI triage for mothers and baby products customer support.",
 };
 
 export default function RootLayout({
